@@ -1,12 +1,82 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+main {
+    display: flex;
+}
 
-.font {
-    font-family: 'Aclonica', sans-serif;
+.side {
+    background-image: url("images/cat.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    width: 40vw;
 }
 
 label {
     text-transform: uppercase;
 }
 
+#odin_logo {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20vh;
+    padding: 10px;
+    
+}
+
+#odin_logo > img {
+  height: 100%;
+  object-fit: fill;
+}
+
 #odin_logo > p {
     text-transform: uppercase;
+    font-family: 'Aclonica', sans-serif;
+    color: white;
+    font-size: xx-large;
+    align-self: center;
+}
+
+#photo_credit {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: small;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+
+}
+
+#photo_credit > a {
+    color: white;
+}
+
+
+
+#form-layout {
+    display: flex;
+    flex-direction: column;
+}
+
+#top {
+    height: 35vh;
+}
+
+#middle {
+    height: 30vh;
+}
+
+#bottom {
+    height: 35vh;
+}
+
+#top, #middle, #bottom {
+    padding-left: 20px;
 }
