@@ -8,7 +8,7 @@ main {
 
 .side {
     background-image: url("images/cat.jpg");
-    background-size: auto 100%;
+    background-size: 100% 100vh;
     background-repeat: no-repeat;
     position: relative;
     height: 100vh;
@@ -58,25 +58,58 @@ label {
     color: white;
 }
 
-
-
 #form-layout {
     display: flex;
     flex-direction: column;
 }
 
-#top {
-    height: 35vh;
+#top, #middle, #bottom {
+    padding-left: 3rem;
+    padding-right: 5rem;
 }
+
+
+#top {
+    height: 25vh;
+    background-color: ghostwhite;
+    font-size: xx-large;
+    padding-top: 10rem;
+    text-wrap: balance;
+    font-weight: bold;
+}
+
 
 #middle {
     height: 30vh;
 }
 
 #bottom {
-    height: 35vh;
+    height: 100%;
+    background: linear-gradient(
+        to top,
+        ghostwhite 98%,
+        lightgrey
+
+    );
+    padding-top: 2rem;
+    font-weight: bold;
+    font-size: large;
 }
 
-#top, #middle, #bottom {
-    padding-left: 20px;
+button {
+    background-color: #596D48;
+    border-radius: 6px;
+    padding: 0.5rem 2.5rem;
+    color: white;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+
+}
+
+#bottom a {
+    color: #596D48;
+    text-decoration: none;
+
 }
