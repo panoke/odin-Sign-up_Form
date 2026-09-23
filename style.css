@@ -82,6 +82,10 @@ label {
     flex: 0 1 30%;
  }
 
+ #top > p {
+    max-width: max(80%, 80ch);
+ }
+
 
 #middle {
     padding-bottom: 5rem;
