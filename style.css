@@ -2,3 +2,11 @@
 .font {
     font-family: 'Aclonica', sans-serif;
 }
+
+label {
+    text-transform: uppercase;
+}
+
+#odin_logo > p {
+    text-transform: uppercase;
+}
